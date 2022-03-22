@@ -1,0 +1,57 @@
+.principal {
+    background-color: #5848b1b6 ;
+    display: grid;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.cabecalho {
+    background-color: #f1f1f1;
+    border-style:ridge ;
+    border-color: aqua;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.conteudo {
+    background-color:blue;
+}
+
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.principal__cabecalho {
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.principal__cabecalho___item {
+    color:inherit;
+    margin-left: 10px;  
+    text-decoration: none;
+
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+footer {
+    color: #2b2c64;
+    background-color:rgba(23, 173, 218, 0.199);
+    text-align:center;
+    text-decoration: none;
+}
